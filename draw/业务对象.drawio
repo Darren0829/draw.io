@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-26T09:30:05.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="o3bUXu4OFg5DcvtHjzOd" version="12.7.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-26T09:30:35.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="f5vlsqlTeky7kYSuhlpK" version="12.7.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="4276" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="3200" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="6320" dy="1656" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="3200" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -980,7 +980,7 @@
         <mxCell id="uGYCaoZWWmBtxd0d4g1E-1555" value="第三方ID" style="rounded=1;fillColor=#F08E81;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-1896" y="1571" width="80" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1564" value="" style="group;strokeColor=#A29DC5;" vertex="1" connectable="0" parent="1">
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1564" value="" style="group;strokeColor=none;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-1729.2378798793177" y="1528.0034474171364" width="143.9404610265608" height="143.95532605496828" as="geometry" />
         </mxCell>
         <mxCell id="uGYCaoZWWmBtxd0d4g1E-1556" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.half_circle;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#A29DC5;gradientColor=none;fontSize=9;fontColor=none;noLabel=1;rotation=-55;" vertex="1" parent="uGYCaoZWWmBtxd0d4g1E-1564">
