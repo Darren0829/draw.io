@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-26T08:44:40.509Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="TT_3LSquEVh02HFdlPtJ" version="12.7.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-26T08:47:25.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="Soxf0ZegwubxFTJ6r92h" version="12.7.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="3943" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="1800" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="4276" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="1800" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -887,9 +887,6 @@
         <mxCell id="j6NOBljnlDJ0_zuV5T52-1551" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;id &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;40&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;org_name &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;50&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;parent_id &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;40&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;dn &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;250&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;mgr_user_id &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;1000&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;domain_id &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;250&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;is_del &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;integer,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;node_id &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;integer not null,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;object_uid &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;250&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;parent_code &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;100&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;not null,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;project_id &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(104 , 151 , 187)&quot;&gt;64&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=61;fontColor=#2F5B7C;" parent="1" vertex="1">
           <mxGeometry x="-2350" y="856.5" width="370" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="j6NOBljnlDJ0_zuV5T52-1553" value="租户ID" style="rounded=1;strokeWidth=1;shadow=0;html=1;strokeColor=none;fontColor=#FFFFFF;fillColor=#EA6B66;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="-1575" y="1163" width="80" height="23.25" as="geometry" />
-        </mxCell>
         <mxCell id="j6NOBljnlDJ0_zuV5T52-1556" value="是否删除" style="rounded=1;fillColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=1;shadow=0;html=1;fontColor=#2F5B7C;" parent="1" vertex="1">
           <mxGeometry x="-1645" y="763.5" width="90" height="26.5" as="geometry" />
         </mxCell>
@@ -932,7 +929,7 @@
         <mxCell id="j6NOBljnlDJ0_zuV5T52-1569" value="名称" style="rounded=1;fillColor=#A29DC5;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="-1450" y="1317.68" width="80" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="j6NOBljnlDJ0_zuV5T52-1570" value="组织ID" style="rounded=1;fillColor=#A29DC5;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="j6NOBljnlDJ0_zuV5T52-1570" value="组织ID" style="rounded=1;fillColor=#64BBE2;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="-1440" y="1351.68" width="80" height="21" as="geometry" />
         </mxCell>
         <mxCell id="j6NOBljnlDJ0_zuV5T52-1571" value="来源" style="rounded=1;fillColor=#A29DC5;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
@@ -946,9 +943,6 @@
         </mxCell>
         <mxCell id="j6NOBljnlDJ0_zuV5T52-1576" value="是否删除" style="rounded=1;fillColor=#A29DC5;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="-1198" y="1385.68" width="80" height="23.5" as="geometry" />
-        </mxCell>
-        <mxCell id="j6NOBljnlDJ0_zuV5T52-1577" value="租户ID" style="rounded=1;strokeWidth=1;shadow=0;html=1;strokeColor=none;fontColor=#FFFFFF;fillColor=#EA6B66;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="-1179" y="1350.68" width="80" height="23.25" as="geometry" />
         </mxCell>
         <mxCell id="j6NOBljnlDJ0_zuV5T52-1578" value="密码" style="rounded=1;fillColor=#A29DC5;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="-1174" y="1312.68" width="80" height="23.5" as="geometry" />
@@ -967,9 +961,6 @@
             <mxPoint x="-1279.9988168179643" y="1022.7988168179645" as="targetPoint" />
             <mxPoint x="-1207.44" y="866.71" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="j6NOBljnlDJ0_zuV5T52-1583" value="租户ID" style="rounded=1;strokeWidth=1;shadow=0;html=1;strokeColor=none;fontColor=#FFFFFF;fillColor=#EA6B66;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="-932" y="953" width="80" height="23.25" as="geometry" />
         </mxCell>
         <mxCell id="j6NOBljnlDJ0_zuV5T52-1543" value="租户" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=61;fontColor=#2F5B7C;align=center;strokeColor=#2F5B7C;strokeWidth=6;fillColor=#FFFFFF;fontStyle=0;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1550" y="576.75" width="270" height="270" as="geometry" />
@@ -1018,6 +1009,15 @@
         </mxCell>
         <mxCell id="j6NOBljnlDJ0_zuV5T52-1595" value="角色ID" style="rounded=1;fillColor=#F08705;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;fontSize=12;rotation=15;" parent="1" vertex="1">
           <mxGeometry x="-1106" y="1131" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1543" value="租户ID" style="rounded=1;fillColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=1;shadow=0;html=1;fontColor=#2F5B7C;" vertex="1" parent="1">
+          <mxGeometry x="-937" y="955" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1544" value="租户ID" style="rounded=1;fillColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=1;shadow=0;html=1;fontColor=#2F5B7C;" vertex="1" parent="1">
+          <mxGeometry x="-1575" y="1163" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1545" value="租户ID" style="rounded=1;fillColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=1;shadow=0;html=1;fontColor=#2F5B7C;" vertex="1" parent="1">
+          <mxGeometry x="-1183" y="1351" width="80" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
