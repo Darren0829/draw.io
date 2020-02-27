@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-27T06:04:47.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="h-rPWj80BhHFRHE0s6kk" version="12.7.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-27T06:24:28.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="iHqrCrJI3x-iJF09NXh3" version="12.7.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="5503" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="3000" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="6147" dy="1183" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="3000" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -538,9 +538,6 @@
         <mxCell id="uGYCaoZWWmBtxd0d4g1E-1703" value="资源ID" style="rounded=1;fillColor=#92AAD3;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-3692.36" y="1730" width="80" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1705" value="资源名称" style="rounded=1;fillColor=#92AAD3;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-3702" y="1772" width="80" height="23.5" as="geometry" />
-        </mxCell>
         <mxCell id="uGYCaoZWWmBtxd0d4g1E-1706" value="资源标识" style="rounded=1;fillColor=#92AAD3;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-3844" y="1917" width="61.28" height="18" as="geometry" />
         </mxCell>
@@ -549,6 +546,12 @@
         </mxCell>
         <mxCell id="uGYCaoZWWmBtxd0d4g1E-1708" value="资源标识" style="rounded=1;fillColor=#92AAD3;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-3483" y="2027.5" width="61.28" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1710" value="自有属性" style="rounded=1;fillColor=#92AAD3;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-3848" y="1954.75" width="61.28" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1711" value="自有属性" style="rounded=1;fillColor=#92AAD3;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-3478" y="2062" width="61.28" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
