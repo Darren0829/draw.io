@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-27T03:22:35.776Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="ks7ZwAg3bf-5v8r4EHeD" version="12.7.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-27T03:28:32.241Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="fPQynG4Np0dcQ4d_ALIO" version="12.7.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="5768" dy="974" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="3000" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5037" dy="571" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="3000" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,10 +343,10 @@
         <mxCell id="uGYCaoZWWmBtxd0d4g1E-1633" value="ID" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-2711.67" y="1140" width="80" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1634" value="对象ID" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1634" value="配额对象" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-2742" y="1171" width="80" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1635" value="对象类型" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1635" value="配额对象类型" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-2765" y="1204" width="80" height="23.5" as="geometry" />
         </mxCell>
         <mxCell id="uGYCaoZWWmBtxd0d4g1E-1636" value="服务代码" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
@@ -381,6 +381,27 @@
             <mxPoint x="-2161.411420907483" y="1215.002647069464" as="targetPoint" />
             <mxPoint x="-2387.9984999999997" y="1574.33825" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1650" value="配额值" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-2746" y="1315" width="80" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1651" value="ID" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-2460" y="969" width="61.28" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1654" value="占用对象" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-2495" y="996" width="61.28" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1655" value="占用对象类型" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-2506" y="1025" width="61.28" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1656" value="配额对象类型" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-2510" y="1055" width="61.28" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1657" value="配额对象ID" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-2506" y="1083" width="61.28" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uGYCaoZWWmBtxd0d4g1E-1658" value="占用值" style="rounded=1;fillColor=#90F0CD;strokeColor=none;strokeWidth=3;shadow=1;html=1;fontColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-2409" y="1128" width="61.28" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
