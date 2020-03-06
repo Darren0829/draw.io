@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-06T08:29:59.087Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="xrJ-lWeIlfkTOdEtqFa_" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-06T08:35:05.734Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="3moAlFUAy8p9nWZw4tZs" version="12.8.1" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
-    <mxGraphModel dx="2566" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2326" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,25 +110,48 @@
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-698" value="&lt;b&gt;TenantAuthorityServiceImpl&lt;/b&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="34.07" y="3180" width="181.87" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-704" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="wI_OfMcQ4AUgbB2YtZjj-701" target="wI_OfMcQ4AUgbB2YtZjj-703">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-703" value="创建Tenant" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="940" y="2830" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-709" value="平台管理员" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="560" y="2710" width="300" height="330" as="geometry">
-            <mxRectangle x="570" y="2660" width="90" height="23" as="alternateBounds" />
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-709" value="平台级别功能（平台管理员）" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2700" width="520" height="630" as="geometry">
+            <mxRectangle x="520" y="2700" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-700" value="创建Domain" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-709">
-          <mxGeometry x="10" y="120" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-701" value="创建Tenant" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-709">
-          <mxGeometry x="190" y="120" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-702" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-709" source="wI_OfMcQ4AUgbB2YtZjj-700" target="wI_OfMcQ4AUgbB2YtZjj-701">
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-725" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-709" source="wI_OfMcQ4AUgbB2YtZjj-700" target="wI_OfMcQ4AUgbB2YtZjj-724">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-727" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.03;entryY=0.57;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-709" source="wI_OfMcQ4AUgbB2YtZjj-700" target="wI_OfMcQ4AUgbB2YtZjj-726">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="110" />
+              <mxPoint x="170" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-729" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-709" source="wI_OfMcQ4AUgbB2YtZjj-700" target="wI_OfMcQ4AUgbB2YtZjj-728">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-700" value="创建Domain" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-709">
+          <mxGeometry x="40" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-701" value="创建租户" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-709">
+          <mxGeometry x="200" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-702" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-709" source="wI_OfMcQ4AUgbB2YtZjj-700" target="wI_OfMcQ4AUgbB2YtZjj-701">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-703" value="为租户分配平台权限" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-709">
+          <mxGeometry x="360" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-704" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-709" source="wI_OfMcQ4AUgbB2YtZjj-701" target="wI_OfMcQ4AUgbB2YtZjj-703">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-724" value="删除租户" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-709">
+          <mxGeometry x="200" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-726" value="禁用\启用租户" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-709">
+          <mxGeometry x="200" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-728" value="修改租户" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-709">
+          <mxGeometry x="200" y="480" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-712" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DomainService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create(Domain): Domain&lt;br&gt;+ modify(String, String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(String):oid&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ disable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ enable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list():List&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-230" y="2650" width="190" height="160" as="geometry" />
@@ -157,7 +180,7 @@
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-720" value="数据库设计" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="-440" y="1500" width="1800" height="1100" as="geometry">
-            <mxRectangle x="-450" y="1488" width="90" height="23" as="alternateBounds" />
+            <mxRectangle x="-440" y="1500" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D1OtGnu3RLB5dEqJFSi_-652" value="domain" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" parent="wI_OfMcQ4AUgbB2YtZjj-720" vertex="1">
