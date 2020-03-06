@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-06T08:47:30.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="PN7UVHqBMl4dLknV9dnc" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-06T08:56:35.635Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="HkJ6cViyYudvUK9ka87D" version="12.8.1" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
     <mxGraphModel dx="2326" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="0">
       <root>
@@ -76,42 +76,42 @@
           <mxGeometry x="489.99905870445355" y="599.9984159919022" width="170.08188259109312" height="141.7049173414306" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-689" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TenantService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create(Tenant): Tenant&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ modify(String, String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(): List&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ disable(String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ enable(String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ find(String): Tenant&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="2970" width="190" height="160" as="geometry" />
+          <mxGeometry x="-200" y="4110" width="190" height="160" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-691" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=1.019;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;" edge="1" parent="1" source="wI_OfMcQ4AUgbB2YtZjj-690" target="wI_OfMcQ4AUgbB2YtZjj-712">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-144.17000000000007" y="2800" as="targetPoint" />
+            <mxPoint x="-104.17000000000007" y="3940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-690" value="&lt;b&gt;DomainServiceImpl&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="-205" y="2880" width="125" height="40" as="geometry" />
+          <mxGeometry x="-165" y="4020" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-693" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="wI_OfMcQ4AUgbB2YtZjj-692" target="wI_OfMcQ4AUgbB2YtZjj-689">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-692" value="&lt;b&gt;TenantServiceImpl&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="-207.5" y="3180" width="125" height="40" as="geometry" />
+          <mxGeometry x="-167.5" y="4320" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-694" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TenantAuthorityService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ listAuthority():&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ modify(String, String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(): List&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ disable(String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ enable(String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ find(String): Tenant&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="2970" width="190" height="160" as="geometry" />
+          <mxGeometry x="70" y="4110" width="190" height="160" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-695" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ElementAndAuthorityService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ listAuthorityElements(String): List&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ modifyAuthorityElements(List): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="2650" width="210" height="100" as="geometry" />
+          <mxGeometry x="70" y="3790" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-697" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="wI_OfMcQ4AUgbB2YtZjj-696" target="wI_OfMcQ4AUgbB2YtZjj-695">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-696" value="&lt;span style=&quot;font-weight: bold&quot;&gt;ElementAndAuthorityServiceImpl&lt;br&gt;&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="2850" width="210" height="40" as="geometry" />
+          <mxGeometry x="70" y="3990" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-699" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="wI_OfMcQ4AUgbB2YtZjj-698" target="wI_OfMcQ4AUgbB2YtZjj-694">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-698" value="&lt;b&gt;TenantAuthorityServiceImpl&lt;/b&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="34.07" y="3180" width="181.87" height="40" as="geometry" />
+          <mxGeometry x="74.07" y="4320" width="181.87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-709" value="平台级别功能（平台管理员）" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="421.74" y="2700" width="878.26" height="650" as="geometry">
+          <mxGeometry x="-440" y="2700" width="878.26" height="650" as="geometry">
             <mxRectangle x="421.74" y="2700" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -191,29 +191,29 @@
           <mxGeometry x="378.26" y="60" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-712" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DomainService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create(Domain): Domain&lt;br&gt;+ modify(String, String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(String):oid&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ disable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ enable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list():List&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="2650" width="190" height="160" as="geometry" />
+          <mxGeometry x="-190" y="3790" width="190" height="160" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-714" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wI_OfMcQ4AUgbB2YtZjj-719" target="wI_OfMcQ4AUgbB2YtZjj-717">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="238.87" y="3380" as="sourcePoint" />
+            <mxPoint x="278.87" y="4520" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-715" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;OrganizationService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create(Organization):&amp;nbsp;Organization&lt;br&gt;+ modify(String, String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(String):oid&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ disable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ enable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list():List&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sync():void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ find(String): Organization&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="3290" width="210" height="190" as="geometry" />
+          <mxGeometry x="-200" y="4430" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-716" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wI_OfMcQ4AUgbB2YtZjj-718" target="wI_OfMcQ4AUgbB2YtZjj-715">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-135" y="3550" as="sourcePoint" />
+            <mxPoint x="-95" y="4690" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-717" value="&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;ExtensionPoint&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="3290" width="110" height="50" as="geometry" />
+          <mxGeometry x="110" y="4430" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-718" value="OrganizationServiceImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-215" y="3550" width="160" height="34" as="geometry" />
+          <mxGeometry x="-175" y="4690" width="160" height="34" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-719" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;OrganizationExtension&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create(Organization):&amp;nbsp;Organization&lt;br&gt;+ modify(String, String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(String):oid&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ disable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ enable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list():List&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ supportSync():boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ find(String): Organization&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="3440" width="210" height="190" as="geometry" />
+          <mxGeometry x="60" y="4580" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-720" value="数据库设计" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="-440" y="1500" width="1800" height="1100" as="geometry">
@@ -1045,6 +1045,60 @@
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-687" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-720" source="D1OtGnu3RLB5dEqJFSi_-1087" target="wI_OfMcQ4AUgbB2YtZjj-649">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-755" value="租户级别功能（租户管理员）" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2700" width="880" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-756" value="创建组织" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="40" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-766" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-755" source="wI_OfMcQ4AUgbB2YtZjj-757" target="wI_OfMcQ4AUgbB2YtZjj-765">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-757" value="创建组织分组" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="40" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-768" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-755" source="wI_OfMcQ4AUgbB2YtZjj-765" target="wI_OfMcQ4AUgbB2YtZjj-767">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-765" value="查询分组" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="220" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-767" value="修改分组" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="400" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-760" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-755" source="wI_OfMcQ4AUgbB2YtZjj-758" target="wI_OfMcQ4AUgbB2YtZjj-759">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-758" value="创建角色" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="40" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-762" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-755" source="wI_OfMcQ4AUgbB2YtZjj-759" target="wI_OfMcQ4AUgbB2YtZjj-761">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-764" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-755" source="wI_OfMcQ4AUgbB2YtZjj-759" target="wI_OfMcQ4AUgbB2YtZjj-763">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-771" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-755" source="wI_OfMcQ4AUgbB2YtZjj-759" target="wI_OfMcQ4AUgbB2YtZjj-769">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-772" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wI_OfMcQ4AUgbB2YtZjj-755" source="wI_OfMcQ4AUgbB2YtZjj-759" target="wI_OfMcQ4AUgbB2YtZjj-770">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-759" value="查询角色" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="220" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-761" value="创建分配权限" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="400" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-763" value="禁用\启用角色" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="400" y="480" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-769" value="删除角色" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="400" y="620" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-770" value="修改角色" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="wI_OfMcQ4AUgbB2YtZjj-755">
+          <mxGeometry x="400" y="760" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
