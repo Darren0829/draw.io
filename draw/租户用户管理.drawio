@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-06T09:51:06.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="0Zv5y_DIH09oQDze3659" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-06T09:51:30.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="9zQRNIxcQ9bcfihB8Wcu" version="12.8.1" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
     <mxGraphModel dx="2772" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="0">
       <root>
@@ -75,9 +75,9 @@
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-683" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;b&gt;Element&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#23445D;fillColor=#23445D;gradientColor=none;fontFamily=Helvetica;fontSize=23;fontColor=#23445d;align=center;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="489.99905870445355" y="599.9984159919022" width="170.08188259109312" height="141.7049173414306" as="geometry" />
         </mxCell>
-        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-720" value="数据库设计" style="swimlane;startSize=23;" parent="1" vertex="1" collapsed="1">
-          <mxGeometry x="-440" y="1500" width="90" height="23" as="geometry">
-            <mxRectangle x="-440" y="1500" width="1800" height="1100" as="alternateBounds" />
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-720" value="数据库设计" style="swimlane;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="1500" width="1800" height="1100" as="geometry">
+            <mxRectangle x="-440" y="1500" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D1OtGnu3RLB5dEqJFSi_-652" value="domain" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" parent="wI_OfMcQ4AUgbB2YtZjj-720" vertex="1">
@@ -1009,9 +1009,9 @@
         <mxCell id="buyGV620kVOCAJeC2rjm-675" value="禁用\启用元素" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="wI_OfMcQ4AUgbB2YtZjj-709" vertex="1">
           <mxGeometry x="209.17" y="210" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-755" value="租户级别功能（租户管理员）" style="swimlane;" parent="buyGV620kVOCAJeC2rjm-670" vertex="1" collapsed="1">
-          <mxGeometry x="960.8299999999999" y="60" width="190" height="23" as="geometry">
-            <mxRectangle x="960.8299999999999" y="60" width="1130" height="1350" as="alternateBounds" />
+        <mxCell id="wI_OfMcQ4AUgbB2YtZjj-755" value="租户级别功能（租户管理员）" style="swimlane;" parent="buyGV620kVOCAJeC2rjm-670" vertex="1">
+          <mxGeometry x="960.8299999999999" y="60" width="1130" height="1350" as="geometry">
+            <mxRectangle x="960.8299999999999" y="60" width="190" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-774" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="wI_OfMcQ4AUgbB2YtZjj-755" source="wI_OfMcQ4AUgbB2YtZjj-756" target="wI_OfMcQ4AUgbB2YtZjj-773" edge="1">
@@ -1153,7 +1153,7 @@
           <mxGeometry x="990" y="1210" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="buyGV620kVOCAJeC2rjm-671" value="UML图" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="4250" width="1650" height="1210" as="geometry" />
+          <mxGeometry x="-440" y="4250" width="1650" height="840" as="geometry" />
         </mxCell>
         <mxCell id="wI_OfMcQ4AUgbB2YtZjj-712" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DomainService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create(Domain): Domain&lt;br&gt;+ modify(String, String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(String):oid&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ disable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ enable(String):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list():List&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="buyGV620kVOCAJeC2rjm-671" vertex="1">
           <mxGeometry x="40" y="80" width="190" height="160" as="geometry" />
