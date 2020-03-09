@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-09T03:18:25.242Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="357yK8MgUzzJrU-c2d0Q" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-09T03:41:11.822Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="dwQbkg-1LK8mrJaxoWYr" version="12.8.1" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
-    <mxGraphModel dx="2538" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2340" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1252,10 +1252,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5c0h2h0G_58QuK9ExUDa-654" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="buyGV620kVOCAJeC2rjm-671" source="5c0h2h0G_58QuK9ExUDa-650" target="5c0h2h0G_58QuK9ExUDa-653">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5c0h2h0G_58QuK9ExUDa-650" value="&lt;span style=&quot;font-weight: 700&quot;&gt;UserServiceImpl&lt;/span&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;" vertex="1" parent="buyGV620kVOCAJeC2rjm-671">
-          <mxGeometry x="60" y="1150" width="170" height="40" as="geometry" />
+          <mxGeometry x="60" y="1140" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5c0h2h0G_58QuK9ExUDa-652" value="&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;ExtensionPoint&lt;/span&gt;" style="html=1;" vertex="1" parent="buyGV620kVOCAJeC2rjm-671">
           <mxGeometry x="380" y="900" width="110" height="50" as="geometry" />
@@ -1270,13 +1272,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5c0h2h0G_58QuK9ExUDa-656" value="&lt;span style=&quot;font-weight: 700&quot;&gt;LocalUserPlugin&lt;/span&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;" vertex="1" parent="buyGV620kVOCAJeC2rjm-671">
-          <mxGeometry x="640" y="1160" width="170" height="40" as="geometry" />
+          <mxGeometry x="640" y="1180" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5c0h2h0G_58QuK9ExUDa-658" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="buyGV620kVOCAJeC2rjm-671" source="5c0h2h0G_58QuK9ExUDa-657" target="5c0h2h0G_58QuK9ExUDa-653">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5c0h2h0G_58QuK9ExUDa-657" value="&lt;span style=&quot;font-weight: 700&quot;&gt;LdapUserPlugin&lt;/span&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;" vertex="1" parent="buyGV620kVOCAJeC2rjm-671">
-          <mxGeometry x="640" y="1070" width="170" height="40" as="geometry" />
+          <mxGeometry x="640" y="1100" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
