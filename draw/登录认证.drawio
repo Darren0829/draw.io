@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-10T08:33:17.438Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="2vSfNqlphFuzIZC63rt2" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-10T08:38:14.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="LEz1Dfj_N6hLrBGSBrT2" version="12.8.1" type="github">
   <diagram id="bKKuNhbVg70CuKS0t8Wp" name="第 1 页">
     <mxGraphModel dx="2429" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -193,16 +193,16 @@
           <mxGeometry x="40" y="40" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bSy5o8476wJf-g97gq2l-67" value="token说明：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="856" width="120" height="30" as="geometry" />
+          <mxGeometry x="40" y="856" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bSy5o8476wJf-g97gq2l-69" value="token中包含的业务信息有：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="30" y="930" width="210" height="20" as="geometry" />
+          <mxGeometry x="40" y="930" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bSy5o8476wJf-g97gq2l-70" value="登录返回和前端请求的token键值均为：iFCloud-Token" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="30" y="900" width="400" height="20" as="geometry" />
+          <mxGeometry x="40" y="900" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bSy5o8476wJf-g97gq2l-71" value="user_id&lt;br&gt;org_id&lt;br&gt;org_code&lt;br&gt;tenant_id&lt;br&gt;current_role_id&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="50" y="960" width="120" height="100" as="geometry" />
+          <mxGeometry x="60" y="960" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bSy5o8476wJf-g97gq2l-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="bSy5o8476wJf-g97gq2l-73" target="bSy5o8476wJf-g97gq2l-46">
           <mxGeometry relative="1" as="geometry" />
@@ -215,6 +215,24 @@
         </mxCell>
         <mxCell id="bSy5o8476wJf-g97gq2l-74" value="DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeWidth=1;fontSize=16;align=center;" vertex="1" parent="1">
           <mxGeometry x="1120" y="740" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bSy5o8476wJf-g97gq2l-77" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=18;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1770" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bSy5o8476wJf-g97gq2l-78" value="登录接口返回信息：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="1120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSy5o8476wJf-g97gq2l-79" value="header" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1160" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSy5o8476wJf-g97gq2l-81" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;iFCloud-Token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInppcCI6IkRFRiJ9.-SipWyeTSoq......pJSLQDHLjrd.s-iGRXkNXUi-JSOiShFXUp-k3S89D1INJ36MLDptRG0&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1200" width="1220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bSy5o8476wJf-g97gq2l-82" value="body" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSy5o8476wJf-g97gq2l-83" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;user_name&quot;:&quot;用户名称&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;current_role_name&quot;:&quot;普通用户&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;tenant_name&quot;:&quot;组户名称&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;org_name&quot;:&quot;用户组织名称&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;elements&quot;:[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;user_mgt_add&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;user_mgt_delete&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;switchable_roles&quot;:[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;role_id&quot;:&quot;role-ac69fn6ij&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;role_name&quot;:&quot;部门管理员&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;status&quot;:&quot;available&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;role_id&quot;:&quot;role-ac69fjtk&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;role_name&quot;:&quot;云主机管理员&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;status&quot;:&quot;enabled&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1330" width="310" height="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
